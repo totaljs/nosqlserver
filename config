@@ -1,0 +1,8 @@
+name                    : NoSQL embedded server
+version                 : 0.0.1
+
+// Credentials
+superadmin              : admin:admin
+
+// Schemas
+table.access            : name:string|token:string|port:number|created:date
